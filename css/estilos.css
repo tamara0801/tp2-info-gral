@@ -1,12 +1,48 @@
+/* --- Nombre en el navbar --- */
+
+.navbar-brand {
+  font-family: 'Lavishly Yours', cursive;
+  font-size: 2.2rem;
+}
+
+/* --- Fondos de los contenedores --- */
+
+.bg-gris-oscuro {
+    background-color: #575757;
+}
+
+.bg-gris-claro {
+    background-color: #848383;
+}
+
+#banner-borromini {
+    min-height: 100vh;
+    
+    /* Oscurecimiento */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../img/cupula-sant-ivo.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+/* --- Títulos de los contenedores --- */
+
+#introduccion h2 {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 700;
+}
+
+#destacados h2 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+}
+
 /* --- Estilos para las cards de la home page --- */
 
-/* 1. Contenedor de la imagen */
 .card-img-container {
     position: relative;
     overflow: hidden;
 }
 
-/* 2. Overlay */
 .card-hover-overlay {
     position: absolute;
     top: 0;
@@ -20,7 +56,7 @@
     /* Estilo del texto */
     color: white;
     
-    /* Centrar el texto */
+    /* Centrado del texto */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,21 +65,32 @@
     /* Oculto por defecto */
     opacity: 0;
     
-    /* Transición suave */
+    /* Transición */
     transition: opacity 0.3s ease-in-out;
 }
 
 /* Efecto hover */
-
 .card:hover .card-hover-overlay {
     opacity: 1;
 }
 
-/* 4. Zoom en la imagen */
+/* Zoom en la imagen */
 .card .card-img-top {
     transition: transform 0.3s ease-in-out;
 }
 
 .card:hover .card-img-top {
     transform: scale(1.05); /* Agranda un poco la imagen */
+}
+
+#destacados .card {
+    background-color: #2c3034;
+    border: 1px solid #495057;
+}
+
+#destacados .card-title {
+    color: #ffffff;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
