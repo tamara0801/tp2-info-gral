@@ -1,0 +1,49 @@
+/* --- Estilos para las cards de la home page --- */
+
+/* 1. Contenedor de la imagen */
+.card-img-container {
+    position: relative;
+    overflow: hidden;
+}
+
+/* 2. Overlay */
+.card-hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    /* Fondo oscuro semitransparente */
+    background-color: rgba(0, 0, 0, 0.75); 
+    
+    /* Estilo del texto */
+    color: white;
+    
+    /* Centrar el texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    /* Oculto por defecto */
+    opacity: 0;
+    
+    /* Transición suave */
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Efecto hover */
+
+.card:hover .card-hover-overlay {
+    opacity: 1;
+}
+
+/* 4. Zoom en la imagen */
+.card .card-img-top {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.05); /* Agranda un poco la imagen */
+}
