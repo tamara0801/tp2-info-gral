@@ -5,6 +5,8 @@
   font-size: 2.2rem;
 }
 
+/* --- ESTILOS index.html --- */
+
 #banner-borromini {
     min-height: 100vh;
     
@@ -36,7 +38,7 @@
     font-weight: 500;
 }
 
-/* --- Estilos para las cards de la home page --- */
+/* --- Estilos para las cards --- */
 
 .card-img-container {
     position: relative;
@@ -93,4 +95,14 @@
     font-family: 'League Spartan', sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
+}
+
+/* --- ESTILOS biografia.html --- */
+
+#titulo-centrado h1,
+#origenes h2,
+#rivalidad h2,
+#final h2 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
 }
