@@ -111,3 +111,24 @@ h3,
 h2 {
     font-family: 'League Spartan', sans-serif;
 }
+
+/* --- ESTILOS autoras.html --- */
+
+.pfp {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #848383; 
+  margin-bottom: 1rem;
+}
+
+.mail-autora {
+  color: #ADA6A6;
+  transition: color 0.3s ease;
+}
+
+.mail-autora:hover {
+  color: #cccccc;
+  text-decoration: none;
+}
