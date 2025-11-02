@@ -146,6 +146,11 @@ h2 {
   margin-bottom: 1rem;
 }
 
+#info-autoras {
+    display: flex;
+    flex: 1;
+}
+
 .mail-autora {
   color: #ADA6A6;
   transition: color 0.3s ease;
