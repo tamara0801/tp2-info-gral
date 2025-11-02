@@ -155,3 +155,11 @@ h2 {
   color: #cccccc;
   text-decoration: none;
 }
+
+/* --- ESTILOS legado.html --- */
+
+#opus-architectonicum img {
+    max-width: 75%;
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
