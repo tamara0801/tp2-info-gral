@@ -1,3 +1,16 @@
+/* --- Links --- */
+a  {
+    color: rgb(106, 58, 0);
+}
+
+a:hover {
+    color: rgb(152, 90, 15);
+}
+
+a:active {
+    color: rgb(255, 238, 207);
+}
+
 /* --- Nombre en el navbar --- */
 
 .navbar-brand {
