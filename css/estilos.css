@@ -112,14 +112,12 @@ a:active {
 
 /* --- ESTILOS biografia.html --- */
 
-#titulo-centrado h1,
-#origenes h2,
-#rivalidad h2,
-#final h2 {
+#titulo-centrado h1 {
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
 }
 
+<<<<<<< HEAD
 /* --- ESTILOS estilo.html --- */
 
 #estilo, 
@@ -132,4 +130,33 @@ a:active {
 
 #estilo div img {
 
+=======
+#origenes h2,
+#rivalidad h2,
+#final h2,
+h3,
+h2 {
+    font-family: 'League Spartan', sans-serif;
+}
+
+/* --- ESTILOS autoras.html --- */
+
+.pfp {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #848383; 
+  margin-bottom: 1rem;
+}
+
+.mail-autora {
+  color: #ADA6A6;
+  transition: color 0.3s ease;
+}
+
+.mail-autora:hover {
+  color: #cccccc;
+  text-decoration: none;
+>>>>>>> 55bb10af19dfc9313b1e5df43099a58d0a080d7d
 }
