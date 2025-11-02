@@ -99,10 +99,15 @@
 
 /* --- ESTILOS biografia.html --- */
 
-#titulo-centrado h1,
-#origenes h2,
-#rivalidad h2,
-#final h2 {
+#titulo-centrado h1 {
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
+}
+
+#origenes h2,
+#rivalidad h2,
+#final h2,
+h3,
+h2 {
+    font-family: 'League Spartan', sans-serif;
 }
