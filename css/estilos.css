@@ -119,3 +119,17 @@ a:active {
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
 }
+
+/* --- ESTILOS estilo.html --- */
+
+#estilo, 
+#tecnica, 
+#estilo h2, 
+#tecnica h2 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+}
+
+#estilo div img {
+
+}
