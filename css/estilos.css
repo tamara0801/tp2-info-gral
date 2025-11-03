@@ -165,10 +165,12 @@ a:active {
 /* --- Estilos específicos estilo.html --- */
 
 #estilo, 
-#tecnica, 
+#tecnica {
+font-family: 'League Spartan', sans-serif;
+}
+
 #estilo h2, 
 #tecnica h2 {
-    font-family: 'League Spartan', sans-serif;
     font-weight: 700;
 }
 
@@ -178,6 +180,13 @@ a:active {
 h3,
 h2 {
     font-family: 'League Spartan', sans-serif;
+}
+
+.img-escala-estilo {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 /* --- Estilos analisis.html --- */

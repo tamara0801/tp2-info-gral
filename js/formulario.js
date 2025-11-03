@@ -2,7 +2,7 @@ $(document).ready(function () {
     $("#formContacto").submit(function (e) {
         e.preventDefault();
 
-        // Limpiamos errores anteriores
+        // Limpiar errores anteriores
         $("#errorNombre, #errorEmail, #errorMensaje").text("");
 
         const nombre = $("#nombre").val().trim();
@@ -11,14 +11,14 @@ $(document).ready(function () {
 
         let hayError = false;
 
-        // Validar nombre: mínimo 2 caracteres, sin números
+        // Validar nombre: mínimo 2 letras, sin números
         const nombreRegex = /^[A-Za-zÁÉÍÓÚáéíóúÑñ\s]{2,}$/;
         if (!nombreRegex.test(nombre)) {
             $("#errorNombre").text("Ingresá un nombre válido (mínimo 2 letras y sin números).");
             hayError = true;
         }
 
-        // Validar email
+        // Validar email con regex
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(email)) {
             $("#errorEmail").text("Ingresá un email válido.");
@@ -34,7 +34,10 @@ $(document).ready(function () {
         if (hayError) return;
 
         // Mostrar mensaje de éxito
-        $("#submitMensaje").removeClass("d-none").hide().fadeIn();
+        $("#submitMensaje")
+            .removeClass("d-none")
+            .hide()
+            .fadeIn();
 
         // Limpiar campos
         $("#nombre, #email, #mensaje").val("");
