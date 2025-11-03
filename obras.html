@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Análisis</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Obras Maestras</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link href="css/estilos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,97 +12,276 @@
 </head>
 <body>
     
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container"> 
-            <a class="navbar-brand text-wrap text-break fs-6 fs-md-3" href="index.html">
-                Francesco Borromini
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="biografia.html">Biografía</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="estilo.html" id="estiloDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Estilo</a>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="estiloDropdown">
-                            <li><a class="dropdown-item" href="analisis.html">Análisis</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="obras.html">Obras Maestras</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="legado.html" id="legadoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Legado</a>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="legadoDropdown">
-                            <li><a class="dropdown-item" href="contexto.html">Contexto del Barroco</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="formulario.html">Contacto</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="autoras.html">Autoras</a></li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container"> 
+                <a class="navbar-brand" href="index.html">Francesco Borromini</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="biografia.html">Biografía</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="estilo.html" id="estiloDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Estilo
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="estiloDropdown">
+                                <li><a class="dropdown-item" href="analisis.html">Análisis</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link active" href="obras.html">Obras Maestras</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="legado.html" id="legadoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Legado
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="legadoDropdown">
+                                <li><a class="dropdown-item" href="contexto.html">Contexto del Barroco</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="formulario.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="autoras.html">Autoras</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
 
-<main>
     <main>
+
         <div class="bg-gris-oscuro text-light py-5">
             <div class="container text-center">
                 <section id="titulo-centrado">
-                    <h2>Título Título Título</h2>
-                    <p>texto texto texto texto texto texto texto texto</p>
+                    <h1>Obras Maestras</h1>
+                    <p class="lead fs-4">Una galería de sus creaciones más icónicas</p>
                 </section>
             </div>
         </div>
 
-        <div class="bg-gris-claro text-light py-4">
-            <div class="container">
-                <section id="origenes">
-                    <div class="row align-items-center g-4">
-                        <div class="col-md-7">
-                            <h2>Título Título Título</h2>
-                            <p>texto texto texto texto texto texto texto texto</p>
+    <div class="bg-gris-claro py-5">
+        <div class="container">
+            <section id="galeria-obras">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3">
+                        
+                        <div id="carruselBorromini" class="carousel slide shadow rounded">
+                            
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carruselBorromini" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Obra 1"></button>
+                                <button type="button" data-bs-target="#carruselBorromini" data-bs-slide-to="1" aria-label="Obra 2"></button>
+                                <button type="button" data-bs-target="#carruselBorromini" data-bs-slide-to="2" aria-label="Obra 3"></button>
+                                <button type="button" data-bs-target="#carruselBorromini" data-bs-slide-to="3" aria-label="Obra 4"></button>
+                                <button type="button" data-bs-target="#carruselBorromini" data-bs-slide-to="4" aria-label="Obra 5"></button>
+                                <button type="button" data-bs-target="#carruselBorromini" data-bs-slide-to="5" aria-label="Obra 6"></button>
+                                <button type="button" data-bs-target="#carruselBorromini" data-bs-slide-to="6" aria-label="Obra 7"></button>
+                                <button type="button" data-bs-target="#carruselBorromini" data-bs-slide-to="7" aria-label="Obra 8"></button>
+                                <button type="button" data-bs-target="#carruselBorromini" data-bs-slide-to="8" aria-label="Obra 9"></button>
+                                <button type="button" data-bs-target="#carruselBorromini" data-bs-slide-to="9" aria-label="Obra 10"></button>
+                            </div>
+
+                            <div class="carousel-inner rounded">
+                                <div class="carousel-item active">
+                                    <img src="img/san-carlino.jpg" class="d-block w-100" alt="Fachada de San Carlo alle Quattro Fontane">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/obra-santivo-cupula.jpg" class="d-block w-100" alt="Cúpula de Sant'Ivo alla Sapienza">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/palazzo-barberini.jpeg" class="d-block w-100" alt="Interior de San Carlo alle Quattro Fontane">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/obra-oratorio.jpg" class="d-block w-100" alt="Oratorio de San Felipe Neri">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/obra-spada.jpg" class="d-block w-100" alt="Galería Spada">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/obra-agnese.jpg" class="d-block w-100" alt="Sant'Agnese in Agone">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/obra-propaganda-fide.jpg" class="d-block w-100" alt="Colegio de Propaganda Fide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/obra-laterano.jpg" class="d-block w-100" alt="San Giovanni in Laterano (Interior)">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/obra-santandrea-delle-fratte.jpeg" class="d-block w-100" alt="Campanario de Sant'Andrea delle Fratte">
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carruselBorromini" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carruselBorromini" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
                         </div>
-                        <div class="col-md-5">
-                            <img src="img/escaleras-palacio-barberini.jpg" alt="Escalera del Palacio Barberini" class="img-fluid rounded shadow">
+                    </div>
+                    </div>
+                </section>
+                
+                <section id="descripciones-carrusel" class="mt-4">
+                    <div class="row">
+                        <div class="col-lg-10 offset-lg-1">
+                            
+                            <div id="slide-desc-0" class="slide-descripcion">
+                                <h3 class="text-light text-center">San Carlo alle Quattro Fontane</h3>
+                                <p class="text-light text-center">Encargada en 1634, esta fue su primera gran obra independiente. Es una obra maestra de la geometría, con una planta elíptica y una fachada cóncava-convexa que crea una sensación de movimiento.</p>
+                            </div>
+                            
+                            <div id="slide-desc-1" class="slide-descripcion d-none">
+                                <h3 class="text-light text-center">Sant'Ivo alla Sapienza</h3>
+                                <p class="text-light text-center">Iniciada en 1642, es famosa por su planta de estrella de seis puntas y su espectacular cúpula en espiral. Es una de las creaciones más audaces y originales de toda la arquitectura barroca.</p>
+                            </div>
+                            
+                            <div id="slide-desc-2" class="slide-descripcion d-none">
+                                <h3 class="text-light text-center">Palazzo Barberini</h3>
+                                <p class="text-light text-center">Acá se forjó la gran rivalidad barroca. Borromini, que trabajaba a las órdenes de su tío Maderno, vio cómo el encargo pasaba a manos de Bernini tras la muerte del primero. Forzado a asistir a su rival, Borromini dejó su marca personal: la ingeniosa escalera de caracol ovalada, un desafío geométrico y un capricho estructural en contraste directo con la monumental escalera cuadrada diseñada por el propio Bernini.</p>
+                            </div>
+
+                            <div id="slide-desc-3" class="slide-descripcion d-none">
+                                <h3 class="text-light text-center">Oratorio de San Felipe Neri</h3>
+                                <p class="text-light text-center">Completado en 1640, Borromini usó ladrillo (un material modesto) para crear una fachada curva innovadora, que servía como un escenario urbano para la congregación.</p>
+                            </div>
+                            
+                            <div id="slide-desc-4" class="slide-descripcion d-none">
+                                <h3 class="text-light text-center">Galería Spada</h3>
+                                <p class="text-light text-center">Un brillante truco de perspectiva forzada. Un corredor de solo 9 metros parece medir más de 35, gracias a la inclinación del suelo y la disminución del tamaño de las columnas.</p>
+                            </div>
+
+                            <div id="slide-desc-5" class="slide-descripcion d-none">
+                                <h3 class="text-light text-center">Sant'Agnese in Agone</h3>
+                                <p class="text-light text-center">Borromini asumió el control de esta obra en la Piazza Navona. Su fachada cóncava y la alta cúpula fueron diseñadas para interactuar dramáticamente con la plaza y la fuente de su rival, Bernini.</p>
+                            </div>
+                            
+                            <div id="slide-desc-6" class="slide-descripcion d-none">
+                                <h3 class="text-light text-center">Colegio de Propaganda Fide</h3>
+                                <p class="text-light text-center">Iniciado por Bernini bajo el favor de Urbano VIII, el destino del palacio cambió drásticamente cuando Inocencio X le entregó el control a Borromini. Este traspaso no fue solo un cambio de arquitecto, sino un acto de suplantación, permitiendo a Borromini rehacer la fachada principal como una audaz respuesta al trabajo de su rival.</p>
+                            </div>
+                            
+                            <div id="slide-desc-7" class="slide-descripcion d-none">
+                                <h3 class="text-light text-center">San Giovanni in Laterano</h3>
+                                <p class="text-light text-center">Borromini recibió el encargo de rejuvenecer esta antigua basílica, la catedral de Roma. Atrapado por las venerables murallas constantinianas que no podía derribar, su solución fue genial y audaz: "vistió" la vieja estructura, encerrando las columnas en nuevos pilares colosales para imponer su ritmo barroco.</p>
+                            </div>
+                            
+                            <div id="slide-desc-8" class="slide-descripcion d-none">
+                                <h3 class="text-light text-center">Campanario de Sant'Andrea delle Fratte</h3>
+                                <p class="text-light text-center">Borromini fue llamado para completar esta iglesia, y lo hizo dejando su marca más fantástica en el cielo. Diseñó el campanario, una estructura sin precedente que se retuerce con ángeles y balaustradas cóncavas, un capricho arquitectónico que actúa como su firma personal.</p>
+                            </div>
+                            
                         </div>
                     </div>
                 </section>
             </div>
         </div>
 
-        <div class="bg-gris-oscuro text-light py-4">
-            <div class="container">
-                <section id="rivalidad">
-                    <div class="row align-items-center g-4">
-                        <div class="col-md-5">
-                            <img src="img/borromini-bernini.jpg" alt="Gian Lorenzo Bernini y Francesco Borromini" class="img-fluid rounded shadow">
+    <div class="bg-gris-oscuro py-4">
+                <div class="container py-4">
+                    <section id="destacados">
+                        <h2 class="text-light text-center mb-4">Explorá el universo de Borromini</h2>
+                        
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                            
+                            <div class="col">
+                                <a href="biografia.html" class="card-link-hover text-decoration-none text-dark">
+                                    <div class="card h-100 shadow-sm border-0">
+                                        <div class="card-img-container">
+                                            <img src="img/biografia-1.jpg" class="card-img-top" alt="Retrato de Francesco Borromini">
+                                            <div class="card-hover-overlay">
+                                                <p class="overlay-text small p-3">
+                                                    Descubrí sus orígenes, su llegada a Roma y su compleja personalidad
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title mb-0">BIOGRAFÍA</h5>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <div class="col">
+                                <a href="estilo.html" class="card-link-hover text-decoration-none text-dark">
+                                    <div class="card h-100 shadow-sm border-0">
+                                        <div class="card-img-container">
+                                            <img src="img/estilo-2.jpg" class="card-img-top" alt="Cúpula de San Carlo alle Quattro Fontane">
+                                            <div class="card-hover-overlay">
+                                                <p class="overlay-text small p-3">
+                                                    Aprendé sobre su uso de la luz, los materiales modestos y sus influencias
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title mb-0">ESTILO</h5>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="obras.html" class="card-link-hover text-decoration-none text-dark">
+                                    <div class="card h-100 shadow-sm border-0">
+                                        <div class="card-img-container">
+                                            <img src="img/obras-3.jpg" class="card-img-top" alt="Sant'Ivo alla Sapienza">
+                                            <div class="card-hover-overlay">
+                                                <p class="overlay-text small p-3">
+                                                    Explorá la galería interactiva de sus creaciones más icónicas y revolucionarias
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title mb-0">OBRAS MAESTRAS</h5>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="legado.html" class="card-link-hover text-decoration-none text-dark">
+                                    <div class="card h-100 shadow-sm border-0">
+                                        <div class="card-img-container">
+                                            <img src="img/legado-4.jpg" class="card-img-top" alt="Plano hecho por Borromini">
+                                            <div class="card-hover-overlay">
+                                                <p class="overlay-text small p-3">
+                                                    Sumergite en su rivalidad con Bernini, su teoría y su impacto en la arquitectura
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title mb-0">LEGADO</h5>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                        <div class="col-md-7">
-                            <h2>Título Título Título</h2>
-                            <p>texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto</p>
-                    </div>
-                </section>
+                    </section>
+                </div>
+            </div>
+
+        </main>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <div>
+                <p class="fst-italic">
+                    "Olvidaron a Borromini, cuando deberían haberlo recordado en todo momento"<br>
+                    — Waldemar Januszczak
+                </p>
+            </div>
+            <hr>
+            <div>
+                <p>Sitio creado por <a href="mailto:th.aguirre1226@gmail.com" target="_blank">Sabrina Aguirre</a> y <a href="mailto:santacruzmelany83@gmail.com" target="_blank">Tamara Santacruz</a></p>
+                <p class="mb-0">Informática General Cát. Drelichman</p>
             </div>
         </div>
-</main>
+    </footer>
 
-<footer class="bg-dark text-white text-center py-4">
-    <div class="container">
-        <p class="fst-italic">
-            "Olvidaron a Borromini, cuando deberían haberlo recordado en todo momento"<br>
-            — Waldemar Januszczak
-        </p>
-        <hr>
-        <p>Sitio creado por <a href="mailto:th.aguirre1226@gmail.com" target="_blank">Sabrina Aguirre</a> y <a href="mailto:santacruzmelany83@gmail.com" target="_blank">Tamara Santacruz</a></p>
-        <p class="mb-0">Informática General Cát. Drelichman</p>
-    </div>
-</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/galeria.js"></script>
 
 </body>
 </html>
