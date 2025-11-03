@@ -49,18 +49,21 @@ a:active {
     transition: all 0.2s ease-in-out;
 }
 
+/* --- Estilos del submenú para Estilo y Legado --- */
 
-/* --- Banner index.html --- */
-#banner-borromini {
-    min-height: 100vh;
-    
-    /* Oscurecimiento */
-    background-image: linear-gradient(#000000a6, #000000a6), url('../img/cupula-sant-ivo.jpg');
-    background-size: cover;
-    background-position: center center;
+.dropdown-item-special {
+    color: #c79d69 !important;
+    font-weight: 600;
 }
 
-/* --- ESTILOS index.html --- */
+.dropdown-item-special:hover {
+    color: #e6c59a !important;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* --- Estilos específicos index.html --- */
+
+/* --- Banner --- */
 
 #banner-borromini {
     min-height: 100vh;
@@ -152,14 +155,14 @@ a:active {
     letter-spacing: 1px;
 }
 
-/* --- ESTILOS biografia.html --- */
+/* --- Estilos biografia.html --- */
 
 #titulo-centrado h1 {
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
 }
 
-/* --- ESTILOS estilo.html --- */
+/* --- Estilos específicos estilo.html --- */
 
 #estilo, 
 #tecnica, 
@@ -177,7 +180,32 @@ h2 {
     font-family: 'League Spartan', sans-serif;
 }
 
-/* --- ESTILOS autoras.html --- */
+/* --- Estilos analisis.html --- */
+
+.accordion-button {
+    background-color: #969696;
+    border-radius: 0.25rem;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: #969696; 
+    color: #fff;
+  }
+
+.accordion-body {
+    background-color: #969696; 
+    color: #f8f9fa;
+}
+
+/* --- Estilos específicos legado.html --- */
+
+#opus-architectonicum img {
+    max-width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* --- Estilos específicos autoras.html --- */
 
 .pfp {
   width: 100%;
@@ -199,32 +227,19 @@ h2 {
   text-decoration: none;
 }
 
-/* --- ESTILOS legado.html --- */
+/* --- Estilos del Footer --- */
 
-#opus-architectonicum img {
-    max-width: 75%;
-    display: block;
-    margin: 0 auto;
+.footer-nav-link {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
-
-/* --- Estilos analisis.html --- */
-
-
-.accordion-button {
-    background-color: #969696;
-    border-radius: 0.25rem;
-  }
-
-  .accordion-button:not(.collapsed) {
-    background-color: #969696; 
-    color: #fff;
-  }
-
-.accordion-body {
-    background-color: #969696; 
-    color: #f8f9fa;
+.footer-nav-link:hover {
+    color: #6a3a00 !important;
 }
 
-
-
+.footer-autoras {
+    font-size: 0.9rem;
+}

@@ -20,101 +20,123 @@
 <body>
 
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container"> 
-            <a class="navbar-brand text-wrap text-break fs-6 fs-md-3" href="index.html">
-                Francesco Borromini
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container"> 
+                <a class="navbar-brand text-wrap text-break fs-6 fs-md-3" href="index.html">
+                    Francesco Borromini
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="biografia.html">Biografía</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="estilo.html" id="estiloDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Estilo</a>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="estiloDropdown">
-                            <li><a class="dropdown-item" href="analisis.html">Análisis</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="obras.html">Obras Maestras</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="legado.html" id="legadoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Legado</a>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="legadoDropdown">
-                            <li><a class="dropdown-item" href="contexto.html">Contexto del Barroco</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link active" href="formulario.html">Contacto</a></li>
-                    <li class="nav-item"><a class="nav-link" href="autoras.html">Autoras</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
 
-<main>
-    <div class="bg-gris-oscuro text-light py-5">
-        <div class="container text-center">
-            <section id="titulo-centrado">
-                <h1>¡Dejanos un mensaje!</h1>
-                <p class="lead fs-4">Y te responderemos cuánto antes</p>
-            </section>
-        </div>
-    </div>
+                        <li class="nav-item"><a class="nav-link" href="biografia.html">Biografía</a></li>
 
-    <div class="bg-gris-claro py-5">
-        <div class="container">
-            <div class="row justify-content-center">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="estiloDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Estilo</a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="estiloDropdown">
+                                <li><a class="dropdown-item dropdown-item-special" href="estilo.html">Ver Estilo</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="analisis.html">Análisis</a></li>
+                            </ul>
+                        </li>
 
-                <div class="col-md-6">
-                    <form id="formContacto" class="p-4 rounded shadow bg-white">
+                        <li class="nav-item"><a class="nav-link" href="obras.html">Obras Maestras</a></li>
 
-                        <div class="mb-3">
-                            <label for="nombre" class="form-label">Nombre</label>
-                            <input type="text" id="nombre" class="form-control" placeholder="Tu nombre">
-                            <div id="errorNombre" class="text-danger small mt-1"></div>
-                        </div>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="legadoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Legado</a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="legadoDropdown">
+                                <li><a class="dropdown-item dropdown-item-special" href="legado.html">Ver Legado</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="contexto.html">Contexto del Barroco</a></li>
+                            </ul>
+                        </li>
 
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Correo electrónico</label>
-                            <input type="email" id="email" class="form-control" placeholder="tuemail@correo.com">
-                            <div id="errorEmail" class="text-danger small mt-1"></div>
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="mensaje" class="form-label">Mensaje</label>
-                            <textarea id="mensaje" class="form-control" rows="4" placeholder="Escribí tu mensaje..."></textarea>
-                            <div id="errorMensaje" class="text-danger small mt-1"></div>
-                        </div>
-
-                        <button type="submit" class="btn btn-dark w-100">Enviar</button>
-
-                        <div id="submitMensaje" class="alert alert-success mt-3 d-none">
-                             <p>¡Gracias por tu mensaje! 🌷</p>
-                        </div>
-
-                    </form>
+                    </ul>
                 </div>
+            </div>
+        </nav>
+    </header>
 
+    <main>
+        <div class="bg-gris-oscuro text-light py-5">
+            <div class="container text-center">
+                <section id="titulo-centrado">
+                    <h1>¡Dejanos un mensaje!</h1>
+                    <p class="lead fs-4">Y te responderemos cuánto antes</p>
+                </section>
             </div>
         </div>
-    </div>
-</main>
+
+        <div class="bg-gris-claro py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-md-6">
+                        <form id="formContacto" class="p-4 rounded shadow bg-white">
+
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" id="nombre" class="form-control" placeholder="Tu nombre">
+                                <div id="errorNombre" class="text-danger small mt-1"></div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo electrónico</label>
+                                <input type="email" id="email" class="form-control" placeholder="tuemail@correo.com">
+                                <div id="errorEmail" class="text-danger small mt-1"></div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje</label>
+                                <textarea id="mensaje" class="form-control" rows="4" placeholder="Escribí tu mensaje..."></textarea>
+                                <div id="errorMensaje" class="text-danger small mt-1"></div>
+                            </div>
+
+                            <button type="submit" class="btn btn-dark w-100">Enviar</button>
+
+                            <div id="submitMensaje" class="alert alert-success mt-3 d-none">
+                                <p>¡Gracias por tu mensaje! 🌷</p>
+                            </div>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
 
 
 <footer class="bg-dark text-white text-center py-4">
-    <div class="container">
-        <p class="fst-italic">
-            "Olvidaron a Borromini, cuando deberían haberlo recordado en todo momento"<br>
-            — Waldemar Januszczak
-        </p>
-        <hr>
-        <p>Sitio creado por <a href="mailto:th.aguirre1226@gmail.com">Sabrina Aguirre</a> y <a href="mailto:santacruzmelany83@gmail.com">Tamara Santacruz</a></p>
-        <p class="mb-0">Informática General Cát. Drelichman</p>
-    </div>
-</footer>
+        <div class="container">
+            <div>
+                <p class="fst-italic">
+                    "Olvidaron a Borromini, cuando deberían haberlo recordado en todo momento"<br>
+                    — Waldemar Januszczak
+                </p>
+            </div>
+            <hr>
+            
+            <div>
+                <p class="mb-2">
+                    <a href="autoras.html" class="text-white text-decoration-none footer-nav-link">Sobre nosotras</a> | <a href="formulario.html" class="text-white text-decoration-none footer-nav-link">Contacto</a>
+                </p>
+            </div>
+
+            <div>
+                <p class="mb-0 footer-autoras">Sitio creado por
+                    <a href="mailto:th.aguirre1226@gmail.com" target="_blank">Sabrina Aguirre</a> y 
+                    <a href="mailto:santacruzmelany83@gmail.com" target="_blank">Tamara Santacruz</a>
+                    <br>
+                    Informática General Cát. Drelichman
+                </p>
+            </div>
+        </div>
+    </footer>
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
