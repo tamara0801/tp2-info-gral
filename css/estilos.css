@@ -1,3 +1,8 @@
+/* Para que padding no haga overflow */
+* {
+    box-sizing: border-box;
+}
+
 /* --- Links --- */
 a  {
     color: rgb(106, 58, 0);
@@ -19,12 +24,6 @@ a:active {
   font-size: 2.2rem;
 }
 
-/* SOBREESCRIBE EL FONDO AZUL, ESTÁ MOLESTANDO CON LA ANIMACIÓN
-.navbar-nav .dropdown-item:visited {
-    background-color: #343a40;
-}*/
-
-
 /* Color normal de los links de la navbar */
 .navbar-dark .navbar-nav .nav-link,
 .navbar-dark .dropdown-menu .dropdown-item {
@@ -45,10 +44,6 @@ a:active {
     color: #c79d69;
     background-color: transparent;
 }
-
-
-
-
 
 /* Suavizar transición del hover */
 .navbar-nav .nav-link,
@@ -187,9 +182,10 @@ h2 {
 /* --- ESTILOS autoras.html --- */
 
 .pfp {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 100%;
+    max-width: 140px;
+    height: auto;
+    border-radius: 50%;
   object-fit: cover;
   border: 3px solid #848383; 
   margin-bottom: 1rem;
