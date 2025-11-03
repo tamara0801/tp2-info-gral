@@ -11,11 +11,60 @@ a:active {
     color: rgb(255, 238, 207);
 }
 
-/* --- Nombre en el navbar --- */
+/* --- Navbar --- */
 
+/* --- Nombre en el navbar --- */
 .navbar-brand {
   font-family: 'Lavishly Yours', cursive;
   font-size: 2.2rem;
+}
+
+/* SOBREESCRIBE EL FONDO AZUL, ESTÁ MOLESTANDO CON LA ANIMACIÓN
+.navbar-nav .dropdown-item:visited {
+    background-color: #343a40;
+}*/
+
+
+/* Color normal de los links de la navbar */
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .dropdown-menu .dropdown-item {
+    color: #ffffff; 
+}
+
+/* Color al pasar el mouse */
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .dropdown-menu .dropdown-item:hover {
+    color: #985a0f !important; 
+}
+
+/* Color cuando el link está activo */
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .dropdown-menu .dropdown-item.active
+ {
+    color: #c79d69;
+    background-color: transparent;
+}
+
+
+
+
+
+/* Suavizar transición del hover */
+.navbar-nav .nav-link,
+.navbar-nav .dropdown-item {
+    transition: all 0.2s ease-in-out;
+}
+
+
+/* --- Banner index.html --- */
+#banner-borromini {
+    min-height: 100vh;
+    
+    /* Oscurecimiento */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../img/cupula-sant-ivo.jpg');
+    background-size: cover;
+    background-position: center center;
 }
 
 /* --- ESTILOS index.html --- */
@@ -144,11 +193,6 @@ h2 {
   object-fit: cover;
   border: 3px solid #848383; 
   margin-bottom: 1rem;
-}
-
-#info-autoras {
-    display: flex;
-    flex: 1;
 }
 
 .mail-autora {
