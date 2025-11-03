@@ -3,15 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Análisis</title>
+    <title>Análisis de Borromini</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/estilos.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Caprasimo&family=Glegoo:wght@400;700&family=Lavishly+Yours&family=League+Spartan:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Special+Gothic+Expanded+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container"> 
@@ -27,9 +24,9 @@
                     <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="biografia.html">Biografía</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="estilo.html" id="estiloDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Estilo</a>
+                        <a class="nav-link dropdown-toggle active" href="estilo.html" id="estiloDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Estilo</a>
                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="estiloDropdown">
-                            <li><a class="dropdown-item" href="analisis.html">Análisis</a></li>
+                            <li><a class="dropdown-item active" href="analisis.html">Análisis</a></li>
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="obras.html">Obras Maestras</a></li>
@@ -40,7 +37,7 @@
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="formulario.html">Contacto</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="autoras.html">Autoras</a></li>
+                    <li class="nav-item"><a class="nav-link" href="autoras.html">Autoras</a></li>
                 </ul>
             </div>
         </div>
@@ -48,46 +45,99 @@
 </header>
 
 <main>
-    <main>
-        <div class="bg-gris-oscuro text-light py-5">
-            <div class="container text-center">
-                <section id="titulo-centrado">
-                    <h2>Título Título Título</h2>
-                    <p>texto texto texto texto texto texto texto texto</p>
-                </section>
+    <!-- Introducción -->
+    <div class="bg-gris-oscuro text-light py-5">
+        <div class="container text-center">
+            <h1>Análisis del estilo de Francesco Borromini</h1>
+            <p class="lead fs-4">Un recorrido por su lenguaje arquitectónico, geometría y tratamiento del espacio.</p>
+        </div>
+    </div>
+
+    <!-- Orígenes y formación -->
+    <div class="bg-gris-claro text-dark py-5">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-md-6">
+                    <h2>Orígenes y formación</h2>
+                    <p>Francesco Borromini (1599-1667), nacido en Bissone, Suiza, se trasladó a Roma, donde trabajó con Carlo Maderno. Su formación combinó técnicas clásicas con un enfoque experimental que rompía las normas arquitectónicas del momento. Esto le permitió desarrollar un estilo único, caracterizado por la integración de geometrías complejas y movimientos espaciales dinámicos.</p>
+
+                    <h2>Estilo arquitectónico</h2>
+                    <p>La obra de Borromini se distingue por su innovación formal y espacial, alejándose de la arquitectura barroca convencional. Empleaba curvas complejas, pliegues y contracciones que generaban efectos visuales dinámicos y sorprendentes. Sus fachadas y espacios interiores reflejan un profundo sentido de ritmo y movimiento, donde la luz y la sombra juegan un papel central. Este enfoque experimental evidencia su capacidad para transformar la geometría en emoción y experiencia sensorial.</p>
+
+                    <h2>Influencia en la arquitectura contemporánea</h2>
+                    <p>La arquitectura de Borromini ha sido estudiada y reinterpretada por arquitectos contemporáneos, quienes valoran su aproximación a la forma y al espacio como lugares de posibilidad. Sus procedimientos topológicos, inflexiones y pliegues anticipan conceptos que hoy se utilizan en arquitectura experimental y deconstructivista. Esta influencia demuestra cómo su legado sigue siendo relevante más de tres siglos después, inspirando nuevas exploraciones formales y espaciales.</p>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="img/borromini-retrato-espejo.jpg" alt="Retrato de Borromini frente a un espejo" class="img-fluid rounded shadow">
+                </div>
             </div>
         </div>
+    </div>
 
-        <div class="bg-gris-claro text-light py-4">
-            <div class="container">
-                <section id="origenes">
-                    <div class="row align-items-center g-4">
-                        <div class="col-md-7">
-                            <h2>Título Título Título</h2>
-                            <p>texto texto texto texto texto texto texto texto</p>
-                        </div>
-                        <div class="col-md-5">
-                            <img src="img/escaleras-palacio-barberini.jpg" alt="Escalera del Palacio Barberini" class="img-fluid rounded shadow">
+    <!-- Análisis profundo en acordeones -->
+    <div class="bg-gris-oscuro text-light py-4">
+        <div class="container">
+            <h2 class="mb-4">Análisis de su estilo</h2>
+
+            <div class="accordion" id="acordeonAnalisis">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingUno">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUno" aria-expanded="true" aria-controls="collapseUno">
+                            Singularidad y relación con el Barroco
+                        </button>
+                    </h2>
+                    <div id="collapseUno" class="accordion-collapse collapse show" aria-labelledby="headingUno" data-bs-parent="#acordeonAnalisis">
+                        <div class="accordion-body">
+                            El trabajo de Borromini es sin duda singular en relación con el resto de la arquitectura barroca romana de mediados del siglo XVII, pues se aleja en sus planteamientos de otras grandes figuras contemporáneas a él. Sin embargo, resulta ser especialmente relevante en relación con el sentido que adquieren algunas categorías formales en su arquitectura, que sorprendentemente, se dejan pensar de la misma manera que en muchas obras de arquitectura contemporánea.
                         </div>
                     </div>
-                </section>
-            </div>
-        </div>
+                </div>
 
-        <div class="bg-gris-oscuro text-light py-4">
-            <div class="container">
-                <section id="rivalidad">
-                    <div class="row align-items-center g-4">
-                        <div class="col-md-5">
-                            <img src="img/borromini-bernini.jpg" alt="Gian Lorenzo Bernini y Francesco Borromini" class="img-fluid rounded shadow">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingDos">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDos" aria-expanded="false" aria-controls="collapseDos">
+                            Recursos formales: pliegue, inflexión y topología
+                        </button>
+                    </h2>
+                    <div id="collapseDos" class="accordion-collapse collapse" aria-labelledby="headingDos" data-bs-parent="#acordeonAnalisis">
+                        <div class="accordion-body">
+                            A través del uso del pliegue, la inflexión, lo topológico o lo in-forme, descubrimos en la arquitectura de Borromini una cierta negación a determinarse en una apariencia formal concreta. Los principios que rigen la forma, es decir, su estatuto, comparten un mismo sentido con muchas obras de arquitectura contemporánea, extendiendo el modo de comprensión del espacio a nuevas maneras de exploración de la forma.
                         </div>
-                        <div class="col-md-7">
-                            <h2>Título Título Título</h2>
-                            <p>texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto</p>
                     </div>
-                </section>
-            </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTres">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTres" aria-expanded="false" aria-controls="collapseTres">
+                            Espacio, continuidad y metamorfosis
+                        </button>
+                    </h2>
+                    <div id="collapseTres" class="accordion-collapse collapse" aria-labelledby="headingTres" data-bs-parent="#acordeonAnalisis">
+                        <div class="accordion-body">
+                            Estos rasgos característicos apuntan a una comprensión del espacio como lugar de posibilidad; el uso de inflexión, expresión de continuidad, procedimiento metamórfico, enmascaramiento de lo tectónico y el estatuto de la envolvente como lugar privilegiado de expresión. Señalan no tanto a la forma completada, como al lugar-espacio donde esta se determina.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingCuatro">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCuatro" aria-expanded="false" aria-controls="collapseCuatro">
+                            Inestabilidad formal y correlato contemporáneo
+                        </button>
+                    </h2>
+                    <div id="collapseCuatro" class="accordion-collapse collapse" aria-labelledby="headingCuatro" data-bs-parent="#acordeonAnalisis">
+                        <div class="accordion-body">
+                            El estatuto o régimen de la forma no evidencia una forma acabada y determinada en plenitud, sino una cierta inestabilidad en su expresión, configuración, estructura y límites. Esta reflexión tiene su correlato en arquitectura contemporánea y permite comprender cómo la obra de Borromini sigue siendo una referencia para el análisis actual del espacio y la forma.
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- Fin acordeón -->
+
         </div>
+    </div>
+
 </main>
 
 <footer class="bg-dark text-white text-center py-4">
@@ -103,6 +153,6 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-
+<script src="js/analisis.js"></script>
 </body>
 </html>

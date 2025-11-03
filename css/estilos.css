@@ -1,19 +1,18 @@
-/* Para que padding no haga overflow */
 * {
     box-sizing: border-box;
 }
 
 /* --- Links --- */
 a  {
-    color: rgb(106, 58, 0);
+    color: #6a3a00;
 }
 
 a:hover {
-    color: rgb(152, 90, 15);
+    color: #985a0f;
 }
 
 a:active {
-    color: rgb(255, 238, 207);
+    color: #ffeecf;
 }
 
 /* --- Navbar --- */
@@ -57,7 +56,7 @@ a:active {
     min-height: 100vh;
     
     /* Oscurecimiento */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../img/cupula-sant-ivo.jpg');
+    background-image: linear-gradient(#000000a6, #000000a6), url('../img/cupula-sant-ivo.jpg');
     background-size: cover;
     background-position: center center;
 }
@@ -68,7 +67,7 @@ a:active {
     min-height: 100vh;
     
     /* Oscurecimiento */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../img/cupula-sant-ivo.jpg');
+    background-image: linear-gradient(#000000a6, #000000a6), url('../img/cupula-sant-ivo.jpg');
     background-size: cover;
     background-position: center center;
 }
@@ -110,10 +109,10 @@ a:active {
     height: 100%;
     
     /* Fondo oscuro semitransparente */
-    background-color: rgba(0, 0, 0, 0.75); 
+    background-color: #000000bf; 
     
     /* Estilo del texto */
-    color: white;
+    color: #ffffff;
     
     /* Centrado del texto */
     display: flex;
@@ -208,3 +207,25 @@ h2 {
     display: block;
     margin: 0 auto;
 }
+
+
+/* --- Estilos analisis.html --- */
+
+
+.accordion-button {
+    background-color: #969696;
+    border-radius: 0.25rem;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: #969696; 
+    color: #fff;
+  }
+
+.accordion-body {
+    background-color: #969696; 
+    color: #f8f9fa;
+}
+
+
+
